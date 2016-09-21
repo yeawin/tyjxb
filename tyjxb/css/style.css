@@ -2,7 +2,6 @@
 body {
   font-family: "Helvetica Neue", "Microsoft YaHei", Helvetica, Arial, sans-serif;
   padding-top: 70px;
-  padding-bottom: 30px;
 }
 
 .theme-dropdown .dropdown-menu {
@@ -17,4 +16,19 @@ body {
 
 .theme-showcase .navbar .container {
   width: auto;
+}
+
+.label{
+	display: inline-block;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -80px;
+    padding: 0 0 80px;
+}
+#footer {
+    min-height: 80px;
+    padding-top: 20px;
 }
