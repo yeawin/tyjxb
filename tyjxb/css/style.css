@@ -3,6 +3,29 @@ body {
   font-family: "Helvetica Neue", "Microsoft YaHei", Helvetica, Arial, sans-serif;
   padding-top: 70px;
 }
+.navbar-primary {
+    color: #fff;
+    background-color: #428bca;
+}
+.navbar-primary .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-primary .navbar-brand {
+	color: #fff;
+}
+.navbar-primary .navbar-nav > li > a:hover, .navbar-primary .navbar-nav > li > a:focus {
+    color: #555;
+    background-color: #d9edf7;
+}
+
+.dropdown-menu{
+	background-color: #d9edf7;
+}
+
+.navbar-primary .nav .open>a, .navbar-primary .nav .open>a:focus, .navbar-primary .nav .open>a:hover {
+    background-color: #d9edf7;
+    border-color: #337ab7;
+}
 
 .theme-dropdown .dropdown-menu {
   position: static;
