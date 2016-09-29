@@ -1,31 +1,52 @@
 @CHARSET "UTF-8";
 body {
   font-family: "Helvetica Neue", "Microsoft YaHei", Helvetica, Arial, sans-serif;
-  padding-top: 70px;
+}
+.main-navbar{
+	font-size: 14px;
+    height: 85px;
+    z-index: 9999;
+	position: relative;
+}
+.main-navbar nav {
+    margin-bottom: 0;
+    padding-top: 10px;
+	min-height: 75px;
 }
 .navbar-primary {
-    color: #fff;
+    color: #eee;
     background-color: #428bca;
 }
 .navbar-primary .navbar-nav>li>a {
-    color: #fff;
+    color: #eee;
 }
 .navbar-primary .navbar-brand {
-	color: #fff;
+	color: #eee;
 }
 .navbar-primary .navbar-nav > li > a:hover, .navbar-primary .navbar-nav > li > a:focus {
-    color: #555;
-    background-color: #d9edf7;
+    color: #fff;
+    background-color: #428bca;
+}
+.navbar-primary .navbar-toggle .icon-bar {
+    background-color: #888;
 }
 
 .dropdown-menu{
-	background-color: #d9edf7;
+	background-color: #428bca;
+	color:#eee;
+}
+.dropdown-menu>li>a {
+    color:#eee;
 }
 
 .navbar-primary .nav .open>a, .navbar-primary .nav .open>a:focus, .navbar-primary .nav .open>a:hover {
-    background-color: #d9edf7;
+    background-color: #428bca;
     border-color: #337ab7;
 }
+.row-banner{
+	margin-bottom:20px;
+}
+
 
 .theme-dropdown .dropdown-menu {
   position: static;
