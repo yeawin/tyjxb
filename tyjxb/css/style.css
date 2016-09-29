@@ -54,4 +54,12 @@ body {
 #footer {
     min-height: 80px;
     padding-top: 20px;
+	background: url('../images/footer_bg.png') repeat;
+	color:#fff;
+}
+#footer a{
+	color:#fff;
+}
+#footer .glyphicon{
+	margin-right:10px;
 }
