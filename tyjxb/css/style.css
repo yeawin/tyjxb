@@ -167,3 +167,53 @@ html, body {
 .marquee-item{
 	margin-right:72px;
 }
+.news-item{
+	margin-bottom:6px;
+}
+
+/*****/
+.tit-list {
+    width: 238px;
+    border: 1px solid #e6e6e6;
+    border-top: 0;
+    padding: 0 0px;
+}
+.tit-list li {
+    border-bottom: 1px dashed #e6e6e6;
+}
+.tit-list li a {
+    line-height: 60px;
+    padding-left: 20px;
+    font-size: 16px;
+    height: 60px;
+    padding: 0 40px;
+    width: 158px;
+    display: block;
+}
+.wp_subcolum, .wp_listcolumn{
+	border: 1px solid #e6e6e6;
+    border-top: 0;
+    padding: 0 0px;
+}
+.wp_listcolumn .wp_column {
+    border-bottom: 1px dashed #e6e6e6;
+}
+.wp_listcolumn .wp_column a {
+    line-height: 60px;
+    padding-left: 20px;
+}
+/****/
+.wp_listcolumn { display: block; width: 100%; }
+.wp_listcolumn .wp_column { display: block; width: 100%; vertical-align: bottom; }
+.wp_listcolumn .wp_column a {background:none; display: block; width: 100%; color: rgb(102, 102, 102); font-size: 15px; font-weight: bold; word-wrap: break-word; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid; border-top-color: rgb(255, 255, 255); text-align: left;  }
+.wp_listcolumn .wp_column a:hover { color:#111; background-color: rgb(249, 249, 249); }
+.wp_listcolumn .wp_column a:hover .column-name { }
+.wp_listcolumn .wp_column a.selected { color: #111; background-color: rgb(249, 249, 249); }
+.wp_listcolumn .wp_column a.parent { }
+.wp_listcolumn .wp_column a.parent .column-name { text-decoration: none; }
+.wp_listcolumn .wp_column a .column-name { display: inline-block; line-height: 22px; padding: 5px 10px 5px 20px; cursor: pointer; }
+.wp_listcolumn .wp_subcolumn { border-top-width: 1px; border-top-style: solid; border-top-color: rgb(255, 255, 255); }
+.wp_listcolumn .wp_subcolumn .wp_column {margin-left:-25px;}
+.wp_listcolumn .wp_subcolumn .wp_column a { color: rgb(85, 85, 85); font-size: 14px; border-bottom-width: 1px; border-bottom-style: solid;  border-top-style: none;  }
+.wp_listcolumn .wp_subcolumn .wp_column a:hover { color: rgb(204, 51, 0); background-color: rgb(247, 247, 247); }
+.wp_listcolumn .wp_subcolumn .wp_column a .column-name { line-height: 20px; padding-left: 50px; }

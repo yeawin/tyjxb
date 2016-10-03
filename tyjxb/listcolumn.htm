@@ -59,21 +59,22 @@
 
 		<div class="container marketing">
 			<div class="col-md-3">
-				<div class="panel panel-primary">
+				<div class="">
 					<div frag="面板2">
-		        		<div class="panel-heading" role="tab" frag="窗口2" portletmode="simpleColumnAttri">
-					      <h4 class="panel-title" frag="窗口内容">{位置栏目}</h4>
+		        		<div class="bg-primary table-bordered col-md-12" frag="窗口2" portletmode="simpleColumnAttri">
+					      <h3><div frag="窗口内容">{位置栏目}</div></h3>
 					    </div>
 				    </div>
-				    <div frag="面板3">
-					    <div class="panel-collapse collapse in" frag="窗口3" portletmode="simpleColumnList">
-					      	<div class="list-unstyled" frag="窗口内容">
-					      		<!-- [InfoCycleBegin] -->
-					      		{栏目列表}
-					      		<!-- [InfoCycleEnd] -->
-					      	</div>
+				    <div frag="面板3" class="">
+					    <div frag="窗口3" portletmode="simpleColumnList">
+					      		<div frag="窗口内容">
+						      		<!-- [InfoCycleBegin] -->
+						      		<li class="nav_master_a">{栏目列表}</li>
+						      		<!-- [InfoCycleEnd] -->
+					      		</div>
 					    </div>
 				    </div>
+				    
 				</div>
 			</div>
 			<div class="col-md-9">
@@ -106,12 +107,16 @@
 						<div class="col-md-12">
 							<!-- =============文章列表（列表页） -->
 							<div frag="窗口6" portletmode="simpleList">
-								<div frag="窗口内容">
-									<!-- [InfoCycleBegin] -->
-						      		<p><span class="pull-left">{标题}</span><span class="pull-right">{发布时间}</span></p>
-						      		<!-- [InfoCycleEnd] -->
-								</div>
-							</div>
+	                          <ul class="list-unstyled">
+	                            <div frag="窗口内容">
+	                                <!-- [InfoCycleBegin] -->
+	                                <li class="news-item">
+	                                    <span>{标题}</span><span class="pull-right">{发布时间}</span>
+	                                </li>  		
+	                                <!-- [InfoCycleEnd] -->
+	                            </div>
+	                          </ul>
+	                        </div>
 						</div>
 					</div>
 				</div>
