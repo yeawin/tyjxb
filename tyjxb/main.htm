@@ -105,10 +105,13 @@
 			</div>
 		</div>
 		<div class="row row-banner">
-			<div class="col-md-12">
-				<img src="./images/banner_11.png" class="img-responsive">
-			</div>
+			 <div class="col-md-12" >
+			 	<div class='marquee' data-duration='10000' data-gap='10' data-duplicated='true' >
+			    <span class="marquee-item">每天锻炼一小时</span> <span class="marquee-item">健康工作50年 </span><span class="marquee-item">幸福生活一辈子</span>
+				</div>
+			 </div>
 		</div>
+
 		<div class="row">
 	        <div class="col-md-6" frag="面板11">
 	        	<div class="panel panel-primary" frag="窗口11">
@@ -411,6 +414,21 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 	<script src="./plugins/jquery.js"></script>
+	<script src="./plugins/jquery.marquee/jquery.marquee.js"></script>
+	<script type="text/javascript">
+	$('.marquee').marquee({
+	    //speed in milliseconds of the marquee
+	    duration: 15000,
+	    //gap in pixels between the tickers
+	    gap: 50,
+	    //time in milliseconds before the marquee will start animating
+	    delayBeforeStart: -15000,
+	    //'left' or 'right'
+	    direction: 'left',
+	    //true or false - should the marquee be duplicated to show an effect of continues flow
+	    duplicated: true
+	});
+	</script>
 	<script>var jQuery_b = jQuery.noConflict(true);</script>
     <script src="./plugins/bootstrap/js/bootstrap.js"></script>
   </body>

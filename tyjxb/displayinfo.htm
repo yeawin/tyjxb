@@ -57,8 +57,7 @@
 		<!-- Wrap the rest of the page in another container to center all the content. -->
 
 		<div class="container marketing">
-			
-			<div class="col-md-3">
+			<div class="col-md-3 hide">
 				<div class="" frag="面板20">
 			        <div class="panel panel-primary">
 		        		<div class="panel-heading" role="tab" frag="窗口2" portletmode="simpleColumnAnchor">
@@ -75,10 +74,22 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-9 text-center" frag="窗口4" portletmode="simpleArticleAttri">
+			<div class="col-md-12" frag="窗口5" portletmode="simpleColumnAttri">
+				<div frag="窗口内容">
+							<div class="pull-left">
+								<p>当前位置：{当前位置}</p>
+								
+							</div>
+							<div class="pull-right hide">
+								<p class="lead">{栏目名称}</p>
+							</div>
+				</div>
+			</div>
+			<hr class="col-md-12">
+			<div class="col-md-12 text-center table-bordered" frag="窗口4" portletmode="simpleArticleAttri">
 				<div frag="窗口内容">
 					<h3>{标题}</h3>
-					<p>发布者：图书信息档案党委， 发布时间：{发布时间}，浏览次数：{浏览次数}</p>
+					<p>发布者：{发布者}， 发布时间：{发布时间}，浏览次数：{浏览次数}</p>
 					<div class="text-justify">{内容}</div>
 				</div>
 			</div>

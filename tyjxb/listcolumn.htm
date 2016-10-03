@@ -37,7 +37,6 @@
 	        <div id="navbar" class="navbar-collapse collapse">
 	        	<div frag="面板1">
 			            <div frag="窗口1">
-			            	
 				            <div frag="窗口内容">
 				            <ul class="nav navbar-nav">
 				            <!-- [InfoCycleBegin] -->
@@ -61,58 +60,63 @@
 		<div class="container marketing">
 			<div class="col-md-3">
 				<div class="panel panel-primary">
-	        		<div class="panel-heading" role="tab" frag="窗口2" portletmode="simpleColumnAnchor">
-				      <h4 class="panel-title" frag="窗口内容">{位置栏目}</h4>
+					<div frag="面板2">
+		        		<div class="panel-heading" role="tab" frag="窗口2" portletmode="simpleColumnAttri">
+					      <h4 class="panel-title" frag="窗口内容">{位置栏目}</h4>
+					    </div>
 				    </div>
-				    <div class="panel-collapse collapse in" frag="窗口3" portletmode="simpleColumnList">
-				      	<div class="list-unstyled" frag="窗口内容">
-				      		<!-- [InfoCycleBegin] -->
-				      		{栏目列表}
-				      		<a href="#"><img class="img-responsive img-thumbnail" src="./images/test1.jpg"></a>
-				      		<!-- [InfoCycleEnd] -->
-				      	</div>
+				    <div frag="面板3">
+					    <div class="panel-collapse collapse in" frag="窗口3" portletmode="simpleColumnList">
+					      	<div class="list-unstyled" frag="窗口内容">
+					      		<!-- [InfoCycleBegin] -->
+					      		{栏目列表}
+					      		<!-- [InfoCycleEnd] -->
+					      	</div>
+					    </div>
 				    </div>
 				</div>
 			</div>
 			<div class="col-md-9">
 				<div class="row">
-					<div class="col-md-12 hide">
-						<!-- =============栏目图片（列表页、文章页） -->
-						<div frag="窗口4" portletmode="simpleColumnPicture">
+					<div frag="面板4">
+						<div class="col-md-12 hide">
+							<!-- =============栏目图片（列表页、文章页） -->
+							<div frag="窗口4" portletmode="simpleColumnAttri">
+								<div frag="窗口内容">
+									{栏目图片}
+								</div>
+							</div>
+						</div>
+					</div>
+					<div frag="面板5">
+						<div class="col-md-12" frag="窗口5" portletmode="simpleColumnAttri">
 							<div frag="窗口内容">
-								{栏目图片}
+								<div class="pull-left">
+									<p class="lead">{栏目名称}</p>
+								</div>
+								<div class="pull-right">
+									<p>当前位置：{当前位置}</p>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-12" frag="窗口5" portletmode="simpleColumnAttri">
-						<div frag="窗口内容">
-							<div class="pull-left">
-								<p class="lead">{栏目名称}</p>
-							</div>
-							<div class="pull-right">
-								<p>当前位置：{当前位置}</p>
-							</div>
-						</div>
-					</div>
-
 				</div>
 				<div class="row">
-					<div class="col-md-12">
-						<!-- =============文章列表（列表页） -->
-						<div frag="窗口6" portletmode="simpleList">
-							<div frag="窗口内容">
-								<!-- [InfoCycleBegin] -->
-					      		<p><span class="pull-left">{标题}</span><span class="pull-right">{发布时间}</span></p>
-					      		<!-- [InfoCycleEnd] -->
+					<div frag="面板6">
+						<div class="col-md-12">
+							<!-- =============文章列表（列表页） -->
+							<div frag="窗口6" portletmode="simpleList">
+								<div frag="窗口内容">
+									<!-- [InfoCycleBegin] -->
+						      		<p><span class="pull-left">{标题}</span><span class="pull-right">{发布时间}</span></p>
+						      		<!-- [InfoCycleEnd] -->
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			
-
 		</div>
-		
 		<!-- /.container -->
 
 	</div>
@@ -128,10 +132,6 @@
 			</address>
 		</div>
 	</div>
-
-
-
-
 	<!-- Bootstrap core JavaScript
     ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
