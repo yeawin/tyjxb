@@ -218,3 +218,24 @@ html, body {
 .wp_listcolumn .wp_subcolumn .wp_column a.selected { color: #000; background-color: #e8e8e8;  background-image: none; }
 .wp_listcolumn .wp_subcolumn .wp_column a:hover { color: #111; background-color: rgb(247, 247, 247); background-image: none;}
 .wp_listcolumn .wp_subcolumn .wp_column a .column-name { line-height: 20px; }
+
+/****/
+.carousel-inner .number {
+    position: absolute;
+    right: 5px;
+    bottom: 25px;
+    z-index: 100;
+}
+.carousel-inner .dtjt9_div_text_title {
+    background: #eee;
+    text-align: center;
+    height: 35px;
+}
+.dtjt9_div_text {
+    width: 100%;
+    text-align: left;
+    position: absolute;
+    right: 0px;
+    bottom: -15px;
+    z-index: 150;
+}
