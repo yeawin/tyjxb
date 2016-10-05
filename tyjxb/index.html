@@ -415,8 +415,51 @@
 	     </div>
 	</div>
 	
-	
-	
+	                                
+<!-- 多图交替9 图片 标题 切换 -->
+<ol class="carousel-indicators">
+</ol>
+<div class="carousel-inner">
+
+</div>
+<div language="JavaScript" ifrag="块" outsysclass="false" blockname="b1" inner="true" outer="true" blockheadtag="script" blockfoottag="</script>" rowheadtag="div" rowfoottag="</div>" columnheadtag="" columnfoottag="" rowsclasses="" colsclasses="" outputregular="{b:{r:0,c:0,t:0},s:{t:'i',v:'0,1'},c:6}">
+    var $_sys_window_id_$imgJsons = [
+    <div ifrag="行" cyclebegin="true" cycleend="true" inner="true" outer="false" cyclecount="6" headfragmentneedoutput="true">
+        <div ifrag="条目" inner="true" outer="false">
+            {
+            "src" : "<div ifrag='字段' type='图片' inner='true' outer='false' show='true' showtype='url'><span ifrag='字段内容'></span></div>",
+            "title" : "<div ifrag='字段' type='标题' inner='true' outer='false' show='true'><span ifrag='字段内容'></span></div>",
+            "url" : "<div ifrag='链接' type='文章链接' inner='true' outer='false' show='true' showtype='url'><span ifrag='字段内容'></span></div>"
+            },
+        </div>
+    </div>
+    <div ifrag="行" cyclebegin="true" at="end,end" cycleend="false" inner="true" outer="false" cyclecount="1">
+        <div ifrag="条目" inner="true" outer="false">
+            {
+            "src" : "<div ifrag='字段' type='图片' inner='true' outer='false' show='true' showtype='url'><span ifrag='字段内容'></span></div>",
+            "title" : "<div ifrag='字段' type='标题' inner='true' outer='false' show='true'><span ifrag='字段内容'></span></div>",
+            "url" : "<div ifrag='链接' type='文章链接' inner='true' outer='false' show='true' showtype='url'><span ifrag='字段内容'></span></div>"
+            }];
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$.each($_sys_window_id_$imgJsons, function(index, element){
+	   $("#carousel_ttkty .carousel-indicators").append("<li data-target=\"#carousel_ttkty\" data-slide-to=\"" + index + "\" class=\"\"></li>");
+	   $("#carousel_ttkty .carousel-inner").append(
+			   "<div class=\"item\">" +
+		        "<img onclick=\"openWindow('" + element["url"] + "');\" class=\"img-responsive\" src=\"" + element["src"] + "\" >" +
+			       "<div id='$_sys_window_id_$imgNumber' class=\"number\">" + index +"</div>" +
+				   "<div class=\"carousel-caption\">" + element["title"] + "</div>" +
+
+			   "</div>");
+	   $("#carousel_ttkty .carousel-inner .item").eq(0).addClass("active");
+});
+</script>
+
+            
+            
+            
      
 
 

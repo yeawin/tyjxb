@@ -14,6 +14,10 @@ html, body {
     padding-top: 10px;
 	min-height: 75px;
 }
+.navbar-brand img{
+	margin-top:-30px;
+	height:79px;
+}
 .navbar-primary {
     color: #eee;
     background-color: #428bca;
@@ -218,6 +222,13 @@ html, body {
 .wp_listcolumn .wp_subcolumn .wp_column a.selected { color: #000; background-color: #e8e8e8;  background-image: none; }
 .wp_listcolumn .wp_subcolumn .wp_column a:hover { color: #111; background-color: rgb(247, 247, 247); background-image: none;}
 .wp_listcolumn .wp_subcolumn .wp_column a .column-name { line-height: 20px; }
+.wp_listcolumn .wp_subcolumn { border-top: none; border-bottom:none;}
+.wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_column {margin-left:-25px;}
+.wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_column a {background:none; color: rgb(85, 85, 85); font-size: 14px; border-top: none; border-bottom:none; }
+.wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_column a.selected { color: #000; background-color: #e8e8e8;  background-image: none; }
+.wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_column a:hover { color: #111; background-color: rgb(247, 247, 247); background-image: none;}
+.wp_listcolumn .wp_subcolumn .wp_subcolumn .wp_column a .column-name { line-height: 20px; }
+
 
 /****/
 .carousel-inner .number {
