@@ -35,7 +35,25 @@ html, body {
 .navbar-primary .navbar-toggle .icon-bar {
     background-color: #888;
 }
-
+.close {
+    float: right;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #eee; 
+    text-shadow: none;
+    filter: none;
+    opacity: 1;
+}
+.close a{
+	color:#eee;
+}
+.close a:hover, .close:hover{
+	color:#fff;
+}
+h5.panel-title{
+	font-size:14px;
+}
 .wp_nav {
   padding-left: 0;
   margin-bottom: 0;
